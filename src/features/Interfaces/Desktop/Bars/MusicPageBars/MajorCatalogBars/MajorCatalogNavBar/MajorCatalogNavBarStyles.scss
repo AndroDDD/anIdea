@@ -1,0 +1,189 @@
+@keyframes musicIconActive {
+  0% {
+    box-shadow: 0px 0px 5px 3px rgba(50, 205, 20, 0.75);
+  }
+  100% {
+    box-shadow: 0px 0px 5px 3px rgba(255, 166, 0, 0.75);
+  }
+}
+
+@keyframes pageIndexSelectButton {
+  0% {
+    color: rgba(255, 166, 0, 0.75);
+    box-shadow: 0px 0px 4px 2px rgba(50, 205, 20, 0.75);
+  }
+  100% {
+    color: rgba(50, 205, 20, 0.75);
+    box-shadow: 0px 0px 4px 2px rgba(255, 166, 0, 0.75);
+  }
+}
+
+.toolbar {
+  justify-content: center;
+  align-items: center;
+}
+
+.musicIconActive {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 3px rgba(50, 205, 50, 0.75);
+  animation-name: musicIconActive;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.musicIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 5px 3px rgba(112, 128, 144, 1);
+}
+
+.musicIconInactive:hover {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 3px rgba(50, 205, 50, 1);
+}
+
+.musicSceneStyleSupport {
+  margin: auto;
+  margin-left: 5px;
+  padding-top: 11px;
+  border: 1px solid rgba(112, 128, 144, 0.75);
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 3px 1px rgba(112, 128, 144, 0.5);
+}
+
+.navigationSceneStyleSupport {
+  margin: auto;
+  border-radius: 2px;
+  border: 1px solid rgba(112, 128, 144, 0.5);
+  box-shadow: inset 0px 0px 3px 1px rgba(112, 128, 144, 0.5);
+}
+
+.changeExcerptSceneStyleSupport {
+  margin: auto;
+  border-radius: 2px;
+  border: 1px solid rgba(112, 128, 144, 0.5);
+  box-shadow: inset 0px 0px 3px 1px rgba(112, 128, 144, 0.5);
+}
+
+.nextSongIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+}
+
+.prevSongIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+}
+
+.nextSongIconInactive:hover {
+  color: rgba(50, 205, 50, 1);
+}
+
+.prevSongIconInactive:hover {
+  color: rgba(50, 205, 50, 1);
+}
+
+.photosIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 4px;
+  box-shadow: inset 0px 0px 5px 3px rgba(112, 128, 144, 1);
+}
+
+.photosIconInactive:hover {
+  color: rgba(50, 205, 50, 1);
+  box-shadow: inset 0px 0px 5px 3px rgba(50, 205, 50, 1);
+}
+
+.photosIconActive {
+  color: rgba(245, 80, 0, 1);
+  border-radius: 4px;
+  box-shadow: inset 0px 0px 5px 3px rgba(245, 80, 0, 1);
+}
+
+.motionPicturesIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 4px;
+  box-shadow: inset 0px 0px 5px 3px rgba(112, 128, 144, 1);
+}
+
+.motionPicturesIconInactive:hover {
+  color: rgba(50, 205, 50, 1);
+  box-shadow: inset 0px 0px 5px 3px rgba(50, 205, 50, 1);
+}
+
+.motionPicturesIconActive {
+  color: rgba(245, 80, 0, 1);
+  border-radius: 4px;
+  box-shadow: inset 0px 0px 5px 3px rgba(245, 80, 0, 1);
+}
+
+.journalIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 4px;
+  box-shadow: inset 0px 0px 5px 3px rgba(112, 128, 144, 1);
+}
+
+.journalIconInactive:hover {
+  color: rgba(50, 205, 50, 1);
+  box-shadow: inset 0px 0px 5px 3px rgba(50, 205, 50, 1);
+}
+
+.journalIconActive {
+  color: rgba(245, 80, 0, 1);
+  border-radius: 4px;
+  box-shadow: inset 0px 0px 5px 3px rgba(245, 80, 0, 1);
+}
+
+.upArrowIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 5px 3px rgba(112, 128, 144, 1);
+}
+
+.upArrowIconInactive:hover {
+  color: rgba(50, 205, 50, 1);
+  box-shadow: inset 0px 0px 5px 3px rgba(50, 205, 50, 1);
+}
+
+.downArrowIconInactive {
+  color: rgba(112, 128, 144, 0.75);
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 5px 3px rgba(112, 128, 144, 1);
+}
+
+.downArrowIconInactive:hover {
+  color: rgba(50, 205, 50, 1);
+  box-shadow: inset 0px 0px 5px 3px rgba(50, 205, 50, 1);
+}
+
+.switchExcerptInput {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 25px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgba(112, 128, 144, 0.75);
+  color: rgba(50, 205, 50, 1);
+}
+
+.switchExcerptInput:focus {
+  outline: none !important;
+  caret-color: rgba(245, 80, 0, 1);
+}
+
+.pageIndexSelectButton {
+  padding: 1px;
+  border-radius: 25px;
+  animation-name: pageIndexSelectButton;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.pageIndexSelectButton:hover {
+  color: rgba(50, 205, 20, 1);
+  box-shadow: 0px 0px 4px 2px rgba(50, 205, 20, 1);
+  animation-name: none;
+}

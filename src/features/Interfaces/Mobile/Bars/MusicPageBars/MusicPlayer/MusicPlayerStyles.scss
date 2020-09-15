@@ -1,0 +1,23 @@
+.mainSceneStyleSupport {
+  width: "100%";
+}
+
+.musicIconInactive {
+  color: rgba(50, 205, 50, 0.75);
+}
+
+.prevSongIcon {
+  color: rgba(112, 128, 144, 0.75);
+}
+
+.nextSongIcon {
+  color: rgba(112, 128, 144, 0.75);
+}
+
+.prevSongIcon:hover {
+  color: rgba(50, 205, 50, 1);
+}
+
+.nextSongIcon:hover {
+  color: rgba(50, 205, 50, 1);
+}
